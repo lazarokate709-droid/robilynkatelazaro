@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>about</title>
+    <link rel="stylesheet" href="style2.css" href="https://fontawesome.com/search">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+
+    
+</head>
+<body>
+    <nav class="nabvar">
+        <div class ="navdiv">
+            <div class="logo"><a href ="https://www.rhodeskin.com/" target="_blank">rhode</a></div>
+            <ul>
+                <li><a href="index.html" class="nav-link">HOME</a></li>
+                <li><a href="shop.html" class="nav-link">SHOP</a></li>
+                <li><a href="about.html" class="nav-link">ABOUT</a></li>
+                <li><a href="rhodefutures.html" class="nav-link">RHODE FUTURES</a></li>
+
+            </ul>
+
+
+        </div>
+
+    </nav>
+
+    <div class="banner-card">
+        <img src="image/111.jpg">
+        <div class="banner-text">
+            <h4>a new PHILOSOPHY on SKINCARE.</h4>
+            <a class="btn" href="shop.html">SHOP NOW</a>
+        </div>
+    </div>
+
+   <div class="note">
+    <h2 class="u-pSize u-pSize__Medium u-bold">
+      <p target-element-id="1755521373231">A NOTE FROM OUR FOUNDER</p></h2>
+      <p target-element-id="1755521217520">My journey towards healthier skin inspired me to <br>develop products that really work, 
+        in a way that’s <br>accessible to everyone. Rhode is dedicated to making<br> products based in science and great formulation, <br>
+        simplifying many of the mysteries and complex<br> narratives behind efficacious skincare. I hope these <br>will become your go-to 
+        essentials that can live in your <br>bathroom, be your favorite travel companion, improve<br> your skin over time, and keep your skin 
+        happy and hydrated.</p>
+
+
+   </div>
+    <div class="banner">
+      <img class="banner-image" src="images/lip23.jpg">
+      <h3>EDITED, EFFICACIOUS, AND INTENTIONAL.</h3>
+    </div>
+
+    
+
+<div class="ingredients-wrapper">
+    <h1>research-backed ingredients</h1>
+    <p>Every rhode product is made from purposeful, <br>high-performance ingredients at efficacious levels.</p>
+  <button class="arrow-btn arrow-left">&#10094;</button>
+  <div class="ingredients-section" id="slider">
+    <div class="ingredient-slide">
+      <img src="image/chemical1 (2).jpg" alt="Peptides" class="ingredient-image">
+      <div class="ingredient-content">
+        <div class="ingredient-name">Peptides</div>
+        <div class="ingredient-desc">Promote skin firmness and reduce the appearance of fine lines.</div>
+      </div>
+    </div>
+    <div class="ingredient-slide">
+      <img src="image/chemical2.jpg" alt="Hyaluronic Acid" class="ingredient-image">
+      <div class="ingredient-content">
+        <div class="ingredient-name">Hyaluronic Acid</div>
+        <div class="ingredient-desc">Provides intense hydration for a plumper, smoother appearance.</div>
+      </div>
+    </div>
+    <div class="ingredient-slide">
+      <img src="image/chemical3.jpg" alt="Vitamin E" class="ingredient-image">
+      <div class="ingredient-content">
+        <div class="ingredient-name">Vitamin E</div>
+        <div class="ingredient-desc">A powerful antioxidant that protects the skin from free radical damage.</div>
+      </div>
+    </div>
+    <div class="ingredient-slide">
+      <img src="image/chemical4.jpg" alt="Shea Butter" class="ingredient-image">
+      <div class="ingredient-content">
+        <div class="ingredient-name">Shea Butter</div>
+        <div class="ingredient-desc">Deeply nourishes and softens dry skin for a healthy glow.</div>
+      </div>
+    </div>
+  </div>
+ 
+ 
+  <button class="arrow-btn arrow-right">&#10095;</button>
+</div>
+
+<script>
+  const slider = document.getElementById('slider');
+  const leftBtn = document.querySelector('.arrow-left');
+  const rightBtn = document.querySelector('.arrow-right');
+
+  rightBtn.addEventListener('click', () => {
+    slider.scrollBy({ left: slider.clientWidth * 0.7, behavior: 'smooth' });
+  });
+
+  leftBtn.addEventListener('click', () => {
+    slider.scrollBy({ left: -slider.clientWidth * 0.7, behavior: 'smooth' });
+  });
+</script>
+      
+   
+ <footer>         
+    <div class="socialIcons">
+<div class="footer-navigation-list">
+	<p class="u-bold">This website is for educational purposes only.</p>
+
+                <a href="https://www.tiktok.com/@rhode" target="_blank" ><i class="fa-brands fa-tiktok"></i></a>
+		<span>Tiktok</span>
+		<a href="https://www.youtube.com/c/HaileyRhodeBieber"  target="_blank"><i class="fa-brands fa-youtube"></i></a>
+		<span>Youtube</span>
+		<a href="https://instagram.com/rhode" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+		<span>Instagram</span>
+
+		
+	</div>
+        </div>
+    </div>
+
+</footer>
+</body>
+</html> 

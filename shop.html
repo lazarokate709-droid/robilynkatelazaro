@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>shop</title>
+    <link rel="stylesheet" href="style1.css" href="https://fontawesome.com/search">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+</head>
+<body>
+    <nav class="nabvar">
+        <div class ="navdiv">
+            <div class="logo"><a href ="https://www.rhodeskin.com/" target="_blank">rhode</a></div>
+            <ul>
+                <li><a href="index.html" class="nav-link">HOME</a></li>
+                <li><a href="shop.html" class="nav-link">SHOP</a></li>
+                <li><a href="about.html" class="nav-link">ABOUT</a></li>
+                <li><a href="rhodefutures.html" class="nav-link">RHODE FUTURES</a></li>
+
+            </ul>
+
+
+        </div>
+
+    </nav>
+    
+
+<!-- Banner -->
+<section class="banner">
+  <div class="banner-content">
+    <h1>Your skin's SUMMER</h1>
+    
+  </div>
+</section>
+
+<!-- Shop Bar -->
+<div class="shop-bar">
+  <button onclick="filterProducts('FEATURED')">FEATURED</button>
+  <button onclick="filterProducts('SKIN')">SKIN</button>
+  <button onclick="filterProducts('LIP+CHEEK')">LIP+CHEEK</button>
+  <button onclick="filterProducts('SETS')">SETS</button>
+  
+</div>
+
+<!-- Products -->
+<div class="wrapper"> 
+<div class="products">
+
+  <!-- Product 1 -->
+  <div class="card" data-category="LIP+CHEEK">
+    <div class="tag">NEW</div>
+    <div class="label">TINT</div>
+    <img class="default-img" src="imagess/119828d3-1ff8-42dc-b41c-5ea75db839c1.jpg" alt="Peptide Liptint">
+    <img class="hover-img" src="image/bieber1.jpg" alt="Peptide Liptint Hover">
+    <div class="stars">★★★★★ <span>(557)</span></div>
+    <div class="subtitle">PEPTIDE LIPTINT<br>Limited edition shade</div>
+    <div class="price">php 2000</div>
+    <button class="buy-btn">BUY THE KIT - PHP 2000.00</button>
+  </div>
+<!-- Product 1 -->
+  <div class="card" data-category="SKIN">
+    <div class="tag">NEW</div>
+    <div class="label">TINT</div>
+    <img class="default-img" src="imagess/119828d3-1ff8-42dc-b41c-5ea75db839c1.jpg" alt="Peptide Liptint">
+    <img class="hover-img" src="image/bieber1.jpg" alt="Peptide Liptint Hover">
+    <div class="stars">★★★★★ <span>(557)</span></div>
+    <div class="subtitle">PEPTIDE LIPTINT<br>Limited edition shade</div>
+    <div class="price">php 3000</div>
+    <button class="buy-btn">BUY THE KIT - PHP 3000.00</button>
+  </div>
+<!-- Product 1 -->
+  <div class="card" data-category="FEATURED">
+    <div class="tag">NEW</div>
+    <div class="label">TINT</div>
+    <img class="default-img" src="imagess/119828d3-1ff8-42dc-b41c-5ea75db839c1.jpg" alt="Peptide Liptint">
+    <img class="hover-img" src="image/bieber1.jpg" alt="Peptide Liptint Hover">
+    <div class="stars">★★★★★ <span>(557)</span></div>
+    <div class="subtitle">PEPTIDE LIPTINT<br>Limited edition shade</div>
+    <div class="price">php 3000</div>
+    <button class="buy-btn">BUY THE KIT - PHP 3000.00</button>
+  </div>
+
+  <!-- Product 2 -->
+  <div class="card" data-category="SETS">
+    <div class="tag">NEW</div>
+    <div class="label">MIST</div>
+    <img class="default-img" src="imagess/125afb9a-9839-444a-9f22-bb2e2141a1ef.jpg" alt="Glazing Mist">
+    <img class="hover-img" src="image/bieber2.jpg" alt="Glazing Mist Hover">
+    <div class="stars">★★★★★ <span>(456)</span></div>
+    <div class="subtitle">GLAZING MIST<br>The hydrating mist scent</div>
+    <div class="price">php 4000</div>
+    <button class="buy-btn">BUY THE KIT - PHP 4000.00</button>
+  </div>
+
+  <!-- Product 3 -->
+  <div class="card" data-category="SKIN">
+    <div class="tag">NEW</div>
+    <div class="label">SUMMER</div>
+    <img class="default-img" src="imagess/26285d85-3294-4f68-9401-88a58f263eeb.jpg" alt="The Summer Edit">
+    <img class="hover-img" src="image/bieber3.jpg" alt="The Summer Edit Hover">
+    <div class="stars">★★★★★ <span>(876)</span></div>
+    <div class="subtitle">THE SUMMER EDIT<br>Limited edition trio</div>
+    <div class="price">php 1000</div>
+    <button class="buy-btn">BUY THE KIT - PHP 1000.00</button>
+  </div>
+
+  <!-- Product 4 -->
+  <div class="card" data-category="SETS">
+    <div class="tag">NEW</div>
+    <div class="label">BLUSH</div>
+    <img class="default-img" src="imagess/28eaa468-fd7b-456f-a380-a4aeaf288583.jpg" alt="Pocket Blush">
+    <img class="hover-img" src="image/9205dd0cc249d8593e71f993873b4a4a.jpg" alt="Pocket Blush Hover">
+    <div class="stars">★★★★★ <span>(557)</span></div>
+    <div class="subtitle">POCKET BLUSH<br>The natural flush</div>
+    <div class="price">php 1500</div>
+    <button class="buy-btn">BUY THE KIT - PHP 1500.00</button>
+  </div>
+
+    <!-- Product 4 -->
+  <div class="card" data-category="SKIN">
+    <div class="tag">NEW</div>
+    <div class="label">BLUSH</div>
+    <img class="default-img" src="imagess/36fdc669-d8df-49a5-8683-c6f07c295778.jpg" alt="Pocket Blush">
+    <img class="hover-img" src="image/9205dd0cc249d8593e71f993873b4a4a.jpg" alt="Pocket Blush Hover">
+    <div class="stars">★★★★★ <span>(557)</span></div>
+    <div class="subtitle">POCKET BLUSH<br>The natural flush</div>
+    <div class="price">php 2500</div>
+    <button class="buy-btn">BUY THE KIT - PHP 2500.00</button>
+  </div>
+
+    <!-- Product 4 -->
+  <div class="card" data-category="FEATURED">
+    <div class="tag">NEW</div>
+    <div class="label">BLUSH</div>
+    <img class="default-img" src="imagess/468548da-9ece-478f-a0b8-a56ccc19615a.jpg" alt="Pocket Blush">
+    <img class="hover-img" src="image/9205dd0cc249d8593e71f993873b4a4a.jpg" alt="Pocket Blush Hover">
+    <div class="stars">★★★★★ <span>(557)</span></div>
+    <div class="subtitle">POCKET BLUSH<br>The natural flush</div>
+    <div class="price">php 2000</div>
+    <button class="buy-btn">BUY THE KIT - PHP 2000.00</button>
+  </div>
+
+    <!-- Product 4 -->
+  <div class="card" data-category="SETS">
+    <div class="tag">NEW</div>
+    <div class="label">BLUSH</div>
+    <img class="default-img" src="imagess/4772422e-f664-4245-9f01-8669160519e5.jpg" alt="Pocket Blush">
+    <img class="hover-img" src="image/9205dd0cc249d8593e71f993873b4a4a.jpg" alt="Pocket Blush Hover">
+    <div class="stars">★★★★★ <span>(557)</span></div>
+    <div class="subtitle">POCKET BLUSH<br>The natural flush</div>
+    <div class="price">php 2500</div>
+    <button class="buy-btn">BUY THE KIT - PHP 2500.00</button>
+  </div>
+
+    <!-- Product 4 -->
+  <div class="card" data-category="FEATURED">
+    <div class="tag">NEW</div>
+    <div class="label">BLUSH</div>
+    <img class="default-img" src="imagess/49c0e5ef-7588-4a13-a1d9-12425b1f065b.jpg" alt="Pocket Blush">
+    <img class="hover-img" src="image/9205dd0cc249d8593e71f993873b4a4a.jpg" alt="Pocket Blush Hover">
+    <div class="stars">★★★★★ <span>(557)</span></div>
+    <div class="subtitle">POCKET BLUSH<br>The natural flush</div>
+    <div class="price">php 1000</div>
+    <button class="buy-btn">BUY THE KIT - PHP 1000.00</button>
+  </div>
+
+  <!-- Product 4 -->
+  <div class="card" data-category="LIP+CHEEK">
+    <div class="tag">NEW</div>
+    <div class="label">BLUSH</div>
+    <img class="default-img" src="imagess/4fbf32b2-47f0-4148-8c78-bc2a3872f81b.jpg" alt="Pocket Blush">
+    <img class="hover-img" src="image/9205dd0cc249d8593e71f993873b4a4a.jpg" alt="Pocket Blush Hover">
+    <div class="stars">★★★★★ <span>(557)</span></div>
+    <div class="subtitle">POCKET BLUSH<br>The natural flush</div>
+    <div class="price">php 1500</div>
+    <button class="buy-btn">BUY THE KIT - PHP 1500.00</button>
+  </div>
+
+  <!-- Product 4 -->
+  <div class="card" data-category="SETS">
+    <div class="tag">NEW</div>
+    <div class="label">BLUSH</div>
+    <img class="default-img" src="imagess/50db4be4-fdea-4a85-bf3d-2a11a161df7c.jpg" alt="Pocket Blush">
+    <img class="hover-img" src="image/9205dd0cc249d8593e71f993873b4a4a.jpg" alt="Pocket Blush Hover">
+    <div class="stars">★★★★★ <span>(557)</span></div>
+    <div class="subtitle">POCKET BLUSH<br>The natural flush</div>
+    <div class="price">php 2500</div>
+    <button class="buy-btn">BUY THE KIT - PHP 2500.00</button>
+  </div>
+
+
+  <!-- Product 4 -->
+  <div class="card" data-category="SKIN">
+    <div class="tag">NEW</div>
+    <div class="label">BLUSH</div>
+    <img class="default-img" src="imagess/7aea796b-bed8-44b4-829c-96db8d546de2.jpg" alt="Pocket Blush">
+    <img class="hover-img" src="image/9205dd0cc249d8593e71f993873b4a4a.jpg" alt="Pocket Blush Hover">
+    <div class="stars">★★★★★ <span>(557)</span></div>
+    <div class="subtitle">POCKET BLUSH<br>The natural flush</div>
+    <div class="price">php 1500</div>
+    <button class="buy-btn">BUY THE KIT - PHP 1500.00</button>
+  </div>
+
+  <!-- Product 4 -->
+  <div class="card" data-category="LIP+CHEEK">
+    <div class="tag">NEW</div>
+    <div class="label">BLUSH</div>
+    <img class="default-img" src="imagess/840d0e6d-2232-4424-bf2c-cfc6a05bd15d (1).jpg" alt="Pocket Blush">
+    <img class="hover-img" src="image/9205dd0cc249d8593e71f993873b4a4a.jpg" alt="Pocket Blush Hover">
+    <div class="stars">★★★★★ <span>(557)</span></div>
+    <div class="subtitle">POCKET BLUSH<br>The natural flush</div>
+    <div class="price">php 1500</div>
+    <button class="buy-btn">BUY THE KIT - PHP 1500.00</button>
+  </div>
+  <!-- Product 4 -->
+  <div class="card" data-category="FEATURED">
+    <div class="tag">NEW</div>
+    <div class="label">BLUSH</div>
+    <img class="default-img" src="imagess/840d0e6d-2232-4424-bf2c-cfc6a05bd15d (1).jpg" alt="Pocket Blush">
+    <img class="hover-img" src="image/9205dd0cc249d8593e71f993873b4a4a.jpg" alt="Pocket Blush Hover">
+    <div class="stars">★★★★★ <span>(557)</span></div>
+    <div class="subtitle">POCKET BLUSH<br>The natural flush</div>
+    <div class="price">php 2000</div>
+    <button class="buy-btn">BUY THE KIT - PHP 2000.00</button>
+  </div>
+
+    <!-- Product 4 -->
+  <div class="card" data-category="LIP+CHEEK">
+    <div class="tag">NEW</div>
+    <div class="label">BLUSH</div>
+    <img class="default-img" src="imagess/840d0e6d-2232-4424-bf2c-cfc6a05bd15d (1).jpg" alt="Pocket Blush">
+    <img class="hover-img" src="image/9205dd0cc249d8593e71f993873b4a4a.jpg" alt="Pocket Blush Hover">
+    <div class="stars">★★★★★ <span>(557)</span></div>
+    <div class="subtitle">POCKET BLUSH<br>The natural flush</div>
+    <div class="price">php 1500</div>
+    <button class="buy-btn">BUY THE KIT - PHP 1500.00</button>
+  </div>
+
+  
+  
+
+
+
+</div>  
+</div>
+
+<script>
+function filterProducts(category) {
+  const products = document.querySelectorAll('.card');
+  products.forEach(product => {
+    if (category === 'all' || product.dataset.category === category) {
+      product.style.display = 'block';
+    } else {
+      product.style.display = 'none';
+    }
+  });
+}
+</script>
+
+
+
+ <footer>         
+    <div class="socialIcons">
+<div class="footer-navigation-list">
+	<p class="u-bold">This website is for educational purposes only.</p>
+
+                <a href="https://www.tiktok.com/@rhode" target="_blank" ><i class="fa-brands fa-tiktok"></i></a>
+		<span>Tiktok</span>
+		<a href="https://www.youtube.com/c/HaileyRhodeBieber"  target="_blank"><i class="fa-brands fa-youtube"></i></a>
+		<span>Youtube</span>
+		<a href="https://instagram.com/rhode" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+		<span>Instagram</span>
+
+		
+	</div>
+        </div>
+    </div>
+
+</footer>
+</body>
+</html> 
+
+
+
+
+
+
+
+  
